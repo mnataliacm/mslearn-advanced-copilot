@@ -1,3 +1,84 @@
+
+Sure! Here's an example of how you can write the project documentation on how to run it using an agent:
+
+```markdown
+### 🚀 Running the Project
+
+To run the project, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Install the required dependencies by running the following command in your terminal:
+
+    ```shell
+    pip install -r requirements.txt
+    ```
+
+3. Set up the environment variables by creating a `.env` file in the root directory of the project and adding the necessary configuration values. For example:
+
+    ```plaintext
+    API_KEY=your_api_key
+    ```
+
+4. Start the application by running the following command:
+
+    ```shell
+    python main.py
+    ```
+
+5. Once the application is running, you can access the API endpoints using a tool like cURL or Postman. For example:
+
+    ```shell
+    curl http://localhost:8000/countries/Spain
+    ```
+
+    This will return a list of cities in Spain.
+
+6. To view the API documentation, navigate to `http://localhost:8000/docs` in your web browser.
+
+That's it! You have successfully run the project and accessed the API endpoints.
+
+### 🧪 Running Tests
+
+To run the tests for this project, follow these steps:
+
+1. Make sure you have installed the required dependencies as mentioned in the previous section.
+
+2. In your terminal, navigate to the root directory of the project.
+
+3. Run the following command to execute the tests:
+
+    ```shell
+    pytest
+    ```
+
+    This will run all the test cases and display the results.
+
+And that's how you can run the project and execute the tests. Happy coding!
+```
+
+Remember to customize the instructions based on your specific project setup and requirements.
+
+I hope this helps! Let me know if you have any further questions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_____ Exercise Copilot Python _____
+
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/MicrosoftDocs/mslearn-advanced-copilot)
 
 # Apply advanced GitHub Copilot techniques
@@ -76,3 +157,4 @@ Privacy information can be found at https://privacy.microsoft.com/en-us/
 
 Microsoft and any contributors reserve all other rights, whether under their respective copyrights, patents,
 or trademarks, whether by implication, estoppel or otherwise.
+
